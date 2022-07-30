@@ -8,7 +8,8 @@ const Card = () => {
         <div className="card-info">
             <p><span className='color bold'>$2905</span>/month</p>   
             <p>Palm Harbor</p>
-            <p>Address</p> 
+            <p>Address</p>
+            <p className='border'></p> 
         </div>
         <div className='card-details'>
             <p>Bedrooms</p>

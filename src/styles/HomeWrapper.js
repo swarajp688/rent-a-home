@@ -2,10 +2,10 @@ import styled from "styled-components";
 const HomeWrapper = styled.div`
      
     width: 100%;
-    padding:70px 10% 0 10% ;
+    padding:70px 15% 0 10% ;
     box-sizing:border-box ;
     background-color:#F8F7FC ;
-    height:100vh ;
+    height:100% ;
     display:flex ;
     flex-direction:column ;
     .home__header{
