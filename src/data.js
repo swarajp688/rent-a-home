@@ -19,6 +19,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 594,
     movieIndate: "2022-08-05",
+    image:
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1340-4th-Ave,-Unit-5502,-Seattle,-WA-98101",
@@ -39,6 +41,8 @@ const properties = [
     bathrooms: 2,
     squareFootage: 1826,
     movieIndate: "2022-08-05",
+    image:
+      "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1340-4th-Ave,-Unit-5608,-Seattle,-WA-98101",
@@ -59,6 +63,8 @@ const properties = [
     bathrooms: 3,
     squareFootage: 2058,
     movieIndate: "2022-07-30",
+    image:
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1340-4th-Ave,-Unit-3903,-Seattle,-WA-98101",
@@ -79,6 +85,8 @@ const properties = [
     bathrooms: 2,
     squareFootage: 2223,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1340-4th-Ave,-Unit-3902,-Seattle,-WA-98101",
@@ -99,6 +107,8 @@ const properties = [
     bathrooms: 1.5,
     squareFootage: 1632,
     movieIndate: "2022-07-30",
+    image:
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "10-N-Michigan-Ave,---1002,-Chicago,-IL-60602",
@@ -119,6 +129,8 @@ const properties = [
     bathrooms: 1,
     propertyType: "Condo",
     movieIndate: "2022-07-30",
+    image:
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "6-N-Michigan-Ave,-Unit-606,-Chicago,-IL-60602",
@@ -140,6 +152,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 900,
     movieIndate: "2022-08-05",
+    image:
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "6-N-Michigan-Ave,-Unit-1006,-Chicago,-IL-60602",
@@ -161,6 +175,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 900,
     movieIndate: "2022-08-05",
+    image:
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "6-N-Michigan-Ave,-Unit-909,-Chicago,-IL-60602",
@@ -182,6 +198,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 900,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "6-N-Michigan-Ave,-Unit-805,-Chicago,-IL-60602",
@@ -203,6 +221,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 891,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "36-21-Review-Ave,-Unit-2R,-New-York,-NY-11101",
@@ -223,6 +243,8 @@ const properties = [
     bathrooms: 1,
     propertyType: "Apartment",
     movieIndate: "2022-08-02",
+    image:
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "36-21-Review-Ave,-Unit-2R,-New-York-City,-NY-11101",
@@ -243,6 +265,8 @@ const properties = [
     bathrooms: 1,
     propertyType: "Condo",
     movieIndate: "2022-08-04",
+    image:
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "36-21-Review-Ave,-Unit-3L,-New-York-City,-NY-11101",
@@ -264,6 +288,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 625,
     movieIndate: "2022-07-30",
+    image:
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "36-21-Review-Ave,-Unit-3L,-Queens,-NY-11101",
@@ -285,6 +311,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 625,
     movieIndate: "2022-08-04",
+    image:
+      "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "36-21-Review-Ave,-Unit-3R,-Queens,-NY-11101",
@@ -306,6 +334,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 625,
     movieIndate: "2022-07-30",
+    image:
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "555-N-Spring-St,-Unit-A516,-Los-Angeles,-CA-90012",
@@ -326,6 +356,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 495,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "108-W-2nd-St,-Apt-907,-Los-Angeles,-CA-90012",
@@ -347,6 +379,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 1250,
     movieIndate: "2022-08-02",
+    image:
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "108-W-2nd-St,-Apt-608,-Los-Angeles,-CA-90012",
@@ -367,6 +401,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 910,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "108-W-2nd-St,-Apt-311,-Los-Angeles,-CA-90012",
@@ -387,6 +423,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 750,
     movieIndate: "2022-08-05",
+    image:
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "108-W-2nd-St,-Apt-814,-Los-Angeles,-CA-90012",
@@ -407,6 +445,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 760,
     movieIndate: "2022-08-04",
+    image:
+      "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1409-St-Emanuel-St,-Houston,-TX-77003",
@@ -428,6 +468,8 @@ const properties = [
     propertyType: "Single Family",
     squareFootage: 2196,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "2323-Polk-St,-Apt-201,-Houston,-TX-77003",
@@ -449,6 +491,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 1333,
     movieIndate: "2022-08-05",
+    image:
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "2205-Mckinney-St,-Apt-511,-Houston,-TX-77003",
@@ -470,6 +514,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 940,
     movieIndate: "2022-08-02",
+    image:
+      "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1326-Emancipation-Ave,-Houston,-TX-77003",
@@ -491,6 +537,8 @@ const properties = [
     propertyType: "Townhouse",
     squareFootage: 2587,
     movieIndate: "2022-08-04",
+    image:
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "2205-Mckinney-St,-Apt-417,-Houston,-TX-77003",
@@ -512,6 +560,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 1445,
     movieIndate: "2022-08-05",
+    image:
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "176-S-Saint-Marys-St,-Unit-176,-San-Antonio,-TX-78205",
@@ -533,6 +583,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 700,
     movieIndate: "2022-07-30",
+    image:
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "235-E-Commerce-St,-Unit-4A,-San-Antonio,-TX-78205",
@@ -554,6 +606,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 1192,
     movieIndate: "2022-08-05",
+    image:
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "177-S-Saint-Marys-St,-Unit-177,-San-Antonio,-TX-78205",
@@ -575,6 +629,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 1095,
     movieIndate: "2022-08-05",
+    image:
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "135-E-Commerce-St,-Unit-303,-San-Antonio,-TX-78205",
@@ -595,6 +651,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 302,
     movieIndate: "2022-08-02",
+    image:
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "135-E-Commerce-St,-Unit-302,-San-Antonio,-TX-78205",
@@ -615,6 +673,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 274,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "11-S-Central-Ave,-Apt-1404,-Phoenix,-AZ-85004",
@@ -636,6 +696,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 867,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "11-S-Central-Ave,-Phoenix,-AZ-85004",
@@ -654,6 +716,8 @@ const properties = [
     county: "Maricopa County",
     propertyType: "Apartment",
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "11-S-Central-Ave,-Apt-1711,-Phoenix,-AZ-85004",
@@ -675,6 +739,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 1050,
     movieIndate: "2022-07-30",
+    image:
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "11-S-Central-Ave,-Apt-2104,-Phoenix,-AZ-85004",
@@ -696,6 +762,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 867,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "11-S-Central-Ave,-Apt-2004,-Phoenix,-AZ-85004",
@@ -717,6 +785,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 867,
     movieIndate: "2022-08-02",
+    image:
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "338-S-16th-St,-Unit-5,-Philadelphia,-PA-19102",
@@ -737,6 +807,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 2947,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "338-S-16th-St,-Unit-8,-Philadelphia,-PA-19102",
@@ -758,6 +830,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 2947,
     movieIndate: "2022-08-02",
+    image:
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "334-S-15th-St,-Unit-2ND,-Philadelphia,-PA-19102",
@@ -779,6 +853,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 2000,
     movieIndate: "2022-08-02",
+    image:
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1414-S-Penn-Sq,-Unit-19H,-Philadelphia,-PA-19102",
@@ -800,6 +876,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 1467,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1414-S-Penn-Sq,-Unit-23B,-Philadelphia,-PA-19102",
@@ -821,6 +899,8 @@ const properties = [
     propertyType: "Apartment",
     squareFootage: 2046,
     movieIndate: "2022-08-04",
+    image:
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "SE-12th-Ter,-Miami,-FL-33131",
@@ -842,6 +922,8 @@ const properties = [
     propertyType: "Single Family",
     squareFootage: 1145,
     movieIndate: "2022-08-03",
+    image:
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1200-Brickell-St,-Miami,-FL-33131",
@@ -861,6 +943,8 @@ const properties = [
     bedrooms: 2,
     bathrooms: 2,
     movieIndate: "2022-08-02",
+    image:
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1395-Brickell-Ave,-Unit-2607,-Miami,-FL-33131",
@@ -882,6 +966,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 851,
     movieIndate: "2022-07-30",
+    image:
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1395-Brickell-Ave,-Unit-2711,-Miami,-FL-33131",
@@ -903,6 +989,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 729,
     movieIndate: "2022-07-30",
+    image:
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: "1395-Brickell-Ave,-Unit-2602,-Miami,-FL-33131",
@@ -924,6 +1012,8 @@ const properties = [
     propertyType: "Condo",
     squareFootage: 1892,
     movieIndate: "2022-07-30",
+    image:
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   },
 ];
 export default properties;
