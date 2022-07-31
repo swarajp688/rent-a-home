@@ -33,8 +33,12 @@ const FilterWrapper = styled.div`
         border-radius: 5px;
         padding: 5px;
       }
+      input[type="date"] {
+        cursor: pointer;
+      }
       select {
         height: 45px;
+        cursor: pointer;
       }
     }
    
@@ -54,6 +58,7 @@ const FilterWrapper = styled.div`
         color: #fff;
         font-size: 1rem;
         border-radius: 5px;
+        cursor: pointer;
       }
     }
   }

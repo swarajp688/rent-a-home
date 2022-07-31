@@ -10,8 +10,6 @@ const Filter = () => {
   const {propertiesDispatch,propertiesState} = useProperty();
 
   useEffect(()=>{
-    console.log(location,type,price,moveIndate)
-    console.log( '2022-08-05' > '2022-08-01' )
   },[location,type,price,moveIndate]);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -37,6 +35,7 @@ const Filter = () => {
             <option value="500-1000">500-1000</option>
             <option value="1000-2000">1000-2000</option>
             <option value="2000-5000">2000-5000</option>
+            <option value="5000-20000">5000-20000</option>
           </select>
           
         </div>

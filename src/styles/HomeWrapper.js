@@ -22,7 +22,7 @@ const HomeWrapper = styled.div`
         display:flex ;
         align-items:center ;
         justify-content:center ;
-        width:15%;
+        width:20%;
         .search-input{
             width:100%;
             height:40px;

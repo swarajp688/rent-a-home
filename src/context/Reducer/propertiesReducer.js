@@ -29,8 +29,6 @@ const properties = (state, { payload, type }) => {
         return {
           ...state,  
           foundProperties: state.properties.filter((property)=>{
-
-            console.log(moment(payload.moveIndate)+ "grater than" + moment(property.movieIndate))
             if(payload.moveIndate){
                     return moment(payload.moveIndate) > moment(property.movieIndate)  ? true : false
                 }else {
@@ -79,15 +77,6 @@ const properties = (state, { payload, type }) => {
               return true;
             }
           }
-          // ).filter((property)=>{
-          //     console.log(property.movieIndate > payload.moveIndate , payload.moveIndate , property.movieIndate)
-          //     if(payload.movieIndate){
-          //       return payload.movieIndate >property.movieIndate  ? true : false
-          //   }else {
-          //     return true;
-          //   }
-          // }
-          // )
           )
         };
       }
