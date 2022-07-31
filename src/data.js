@@ -21,6 +21,7 @@ const properties = [
     movieIndate: "2022-08-05",
     image:
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
   },
   {
     id: "1340-4th-Ave,-Unit-5502,-Seattle,-WA-98101",
@@ -43,6 +44,8 @@ const properties = [
     movieIndate: "2022-08-05",
     image:
       "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
+    propertyType: "Apartment",
   },
   {
     id: "1340-4th-Ave,-Unit-5608,-Seattle,-WA-98101",
@@ -65,6 +68,8 @@ const properties = [
     movieIndate: "2022-07-30",
     image:
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
+    propertyType: "Apartment",
   },
   {
     id: "1340-4th-Ave,-Unit-3903,-Seattle,-WA-98101",
@@ -87,6 +92,8 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
+    propertyType: "Apartment",
   },
   {
     id: "1340-4th-Ave,-Unit-3902,-Seattle,-WA-98101",
@@ -109,6 +116,8 @@ const properties = [
     movieIndate: "2022-07-30",
     image:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
+    propertyType: "Apartment",
   },
   {
     id: "10-N-Michigan-Ave,---1002,-Chicago,-IL-60602",
@@ -131,6 +140,8 @@ const properties = [
     movieIndate: "2022-07-30",
     image:
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
+    squareFootage: 850,
   },
   {
     id: "6-N-Michigan-Ave,-Unit-606,-Chicago,-IL-60602",
@@ -154,6 +165,7 @@ const properties = [
     movieIndate: "2022-08-05",
     image:
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
   },
   {
     id: "6-N-Michigan-Ave,-Unit-1006,-Chicago,-IL-60602",
@@ -177,6 +189,7 @@ const properties = [
     movieIndate: "2022-08-05",
     image:
       "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
   },
   {
     id: "6-N-Michigan-Ave,-Unit-909,-Chicago,-IL-60602",
@@ -200,6 +213,7 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
   },
   {
     id: "6-N-Michigan-Ave,-Unit-805,-Chicago,-IL-60602",
@@ -223,6 +237,7 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
   },
   {
     id: "36-21-Review-Ave,-Unit-2R,-New-York,-NY-11101",
@@ -245,6 +260,8 @@ const properties = [
     movieIndate: "2022-08-02",
     image:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
+    squareFootage: 850,
   },
   {
     id: "36-21-Review-Ave,-Unit-2R,-New-York-City,-NY-11101",
@@ -267,6 +284,8 @@ const properties = [
     movieIndate: "2022-08-04",
     image:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
+    squareFootage: 850,
   },
   {
     id: "36-21-Review-Ave,-Unit-3L,-New-York-City,-NY-11101",
@@ -290,6 +309,7 @@ const properties = [
     movieIndate: "2022-07-30",
     image:
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
   },
   {
     id: "36-21-Review-Ave,-Unit-3L,-Queens,-NY-11101",
@@ -313,6 +333,7 @@ const properties = [
     movieIndate: "2022-08-04",
     image:
       "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
   },
   {
     id: "36-21-Review-Ave,-Unit-3R,-Queens,-NY-11101",
@@ -336,6 +357,7 @@ const properties = [
     movieIndate: "2022-07-30",
     image:
       "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
   },
   {
     id: "555-N-Spring-St,-Unit-A516,-Los-Angeles,-CA-90012",
@@ -358,6 +380,8 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
+    bedrooms: 1,
   },
   {
     id: "108-W-2nd-St,-Apt-907,-Los-Angeles,-CA-90012",
@@ -381,6 +405,7 @@ const properties = [
     movieIndate: "2022-08-02",
     image:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
   },
   {
     id: "108-W-2nd-St,-Apt-608,-Los-Angeles,-CA-90012",
@@ -403,6 +428,8 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
+    bedrooms: 1,
   },
   {
     id: "108-W-2nd-St,-Apt-311,-Los-Angeles,-CA-90012",
@@ -425,6 +452,8 @@ const properties = [
     movieIndate: "2022-08-05",
     image:
       "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
+    bedrooms: 1,
   },
   {
     id: "108-W-2nd-St,-Apt-814,-Los-Angeles,-CA-90012",
@@ -447,6 +476,8 @@ const properties = [
     movieIndate: "2022-08-04",
     image:
       "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
+    bedrooms: 1,
   },
   {
     id: "1409-St-Emanuel-St,-Houston,-TX-77003",
@@ -470,6 +501,7 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
   },
   {
     id: "2323-Polk-St,-Apt-201,-Houston,-TX-77003",
@@ -493,6 +525,7 @@ const properties = [
     movieIndate: "2022-08-05",
     image:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
   },
   {
     id: "2205-Mckinney-St,-Apt-511,-Houston,-TX-77003",
@@ -516,6 +549,7 @@ const properties = [
     movieIndate: "2022-08-02",
     image:
       "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
   },
   {
     id: "1326-Emancipation-Ave,-Houston,-TX-77003",
@@ -539,6 +573,7 @@ const properties = [
     movieIndate: "2022-08-04",
     image:
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
   },
   {
     id: "2205-Mckinney-St,-Apt-417,-Houston,-TX-77003",
@@ -562,6 +597,7 @@ const properties = [
     movieIndate: "2022-08-05",
     image:
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
   },
   {
     id: "176-S-Saint-Marys-St,-Unit-176,-San-Antonio,-TX-78205",
@@ -585,6 +621,7 @@ const properties = [
     movieIndate: "2022-07-30",
     image:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
   },
   {
     id: "235-E-Commerce-St,-Unit-4A,-San-Antonio,-TX-78205",
@@ -608,6 +645,7 @@ const properties = [
     movieIndate: "2022-08-05",
     image:
       "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
   },
   {
     id: "177-S-Saint-Marys-St,-Unit-177,-San-Antonio,-TX-78205",
@@ -631,6 +669,7 @@ const properties = [
     movieIndate: "2022-08-05",
     image:
       "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
   },
   {
     id: "135-E-Commerce-St,-Unit-303,-San-Antonio,-TX-78205",
@@ -653,6 +692,8 @@ const properties = [
     movieIndate: "2022-08-02",
     image:
       "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
+    bedrooms: 1,
   },
   {
     id: "135-E-Commerce-St,-Unit-302,-San-Antonio,-TX-78205",
@@ -675,6 +716,8 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
+    bedrooms: 1,
   },
   {
     id: "11-S-Central-Ave,-Apt-1404,-Phoenix,-AZ-85004",
@@ -698,6 +741,7 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
   },
   {
     id: "11-S-Central-Ave,-Phoenix,-AZ-85004",
@@ -718,6 +762,10 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
+    bedrooms: 1,
+    bathrooms: 1,
+    squareFootage: 850,
   },
   {
     id: "11-S-Central-Ave,-Apt-1711,-Phoenix,-AZ-85004",
@@ -741,6 +789,7 @@ const properties = [
     movieIndate: "2022-07-30",
     image:
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
   },
   {
     id: "11-S-Central-Ave,-Apt-2104,-Phoenix,-AZ-85004",
@@ -764,6 +813,7 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
   },
   {
     id: "11-S-Central-Ave,-Apt-2004,-Phoenix,-AZ-85004",
@@ -787,6 +837,7 @@ const properties = [
     movieIndate: "2022-08-02",
     image:
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
   },
   {
     id: "338-S-16th-St,-Unit-5,-Philadelphia,-PA-19102",
@@ -809,6 +860,8 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    name: "Springfield",
+    bedrooms: 1,
   },
   {
     id: "338-S-16th-St,-Unit-8,-Philadelphia,-PA-19102",
@@ -832,6 +885,7 @@ const properties = [
     movieIndate: "2022-08-02",
     image:
       "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
   },
   {
     id: "334-S-15th-St,-Unit-2ND,-Philadelphia,-PA-19102",
@@ -855,6 +909,7 @@ const properties = [
     movieIndate: "2022-08-02",
     image:
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
   },
   {
     id: "1414-S-Penn-Sq,-Unit-19H,-Philadelphia,-PA-19102",
@@ -878,6 +933,7 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
   },
   {
     id: "1414-S-Penn-Sq,-Unit-23B,-Philadelphia,-PA-19102",
@@ -901,6 +957,7 @@ const properties = [
     movieIndate: "2022-08-04",
     image:
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
   },
   {
     id: "SE-12th-Ter,-Miami,-FL-33131",
@@ -924,6 +981,7 @@ const properties = [
     movieIndate: "2022-08-03",
     image:
       "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
   },
   {
     id: "1200-Brickell-St,-Miami,-FL-33131",
@@ -945,6 +1003,9 @@ const properties = [
     movieIndate: "2022-08-02",
     image:
       "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    name: "Palm Harbor",
+    squareFootage: 850,
+    propertyType: "Apartment",
   },
   {
     id: "1395-Brickell-Ave,-Unit-2607,-Miami,-FL-33131",
@@ -968,6 +1029,7 @@ const properties = [
     movieIndate: "2022-07-30",
     image:
       "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
   },
   {
     id: "1395-Brickell-Ave,-Unit-2711,-Miami,-FL-33131",
@@ -991,6 +1053,7 @@ const properties = [
     movieIndate: "2022-07-30",
     image:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
   },
   {
     id: "1395-Brickell-Ave,-Unit-2602,-Miami,-FL-33131",
@@ -1014,6 +1077,7 @@ const properties = [
     movieIndate: "2022-07-30",
     image:
       "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    name: "Faulkner Ave",
   },
 ];
 export default properties;

@@ -4,6 +4,8 @@ const CardWrapper = styled.div`
     height:400px ;
     background-color:#fff ;
     margin-right:30px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+    border-radius:5px ;
     .card-image{
         width:100%;
         height:200px;
@@ -24,7 +26,24 @@ const CardWrapper = styled.div`
             border-bottom:1px solid #ccc;
         }
     }
-
+    .card-details{
+        width:100%;
+        display:flex ;
+        flex-direction:row ;
+        box-sizing:border-box ;
+        flex-wrap : wrap ;
+        padding-left:20px ;
+        p{
+            width:33%;
+            min-width:94px ;
+            font-size:0.8rem ;
+        }
+        .size{
+            font-size:1.2rem ;
+            position: relative;
+            top:5px ;
+        }
+    }
     .color{
         color:#6f65e8;
 
@@ -32,6 +51,16 @@ const CardWrapper = styled.div`
     .bold{
         font-weight:bold;
         font-size:1.5rem ;
+    }
+    .property-name{
+        font-size:1.2rem ;
+        color:#15133C ;
+        font-weight:500;
+        white-space: nowrap;
+    overflow: hidden;
+    }
+    .property-adress{
+        color:#100720 ;
     }
 `;
 export default CardWrapper;
