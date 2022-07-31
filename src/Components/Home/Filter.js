@@ -14,7 +14,6 @@ const Filter = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     filter(location,type,price,moveIndate)(propertiesDispatch);
-    console.log(propertiesState,'propertiesState')
   }
   return (
     <FilterWrapper>
@@ -31,7 +30,6 @@ const Filter = () => {
           <label>Price</label>
         <select name="price" id="price" onChange={(e)=> setPrice(e.target.value)}>
             <option value="">Select Price</option>
-            <option value="0-500">0-500</option>
             <option value="500-1000">500-1000</option>
             <option value="1000-2000">1000-2000</option>
             <option value="2000-5000">2000-5000</option>

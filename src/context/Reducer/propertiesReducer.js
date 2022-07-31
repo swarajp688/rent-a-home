@@ -52,7 +52,6 @@ const properties = (state, { payload, type }) => {
           ).filter((property)=>{
               if(payload.minPrice && payload.maxPrice){
               try {
-                console.log(property.price)
                 return (
                   property.price >= payload.minPrice &&
                   property.price <= payload.maxPrice

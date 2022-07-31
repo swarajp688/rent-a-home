@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import HomeWrapper from '../../styles/HomeWrapper'
 import Filter from './Filter'
 import Results from './Results'
