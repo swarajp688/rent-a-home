@@ -1,1 +1,1 @@
-(live)[https://majestic-cupcake-686995.netlify.app/] 
+[live](https://majestic-cupcake-686995.netlify.app/)
